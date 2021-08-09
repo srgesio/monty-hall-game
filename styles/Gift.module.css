@@ -1,0 +1,33 @@
+.gift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.giftHead {
+  width: 100px;
+  height: 25px;
+  background: #00c94d;
+}
+
+.giftBody {
+  width: 90px;
+  height: 60px;
+  background: #00a13e;
+}
+
+.giftVerticalTape {
+  position: absolute;
+  background: #f00;
+  width: 15px;
+  height: 85px;
+}
+
+.giftHorizontalTape {
+  background: #f00;
+  position: absolute;
+  height: 15px;
+  top: 40px;
+  width: 90px;
+}
