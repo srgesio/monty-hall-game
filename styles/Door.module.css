@@ -1,0 +1,61 @@
+.door {
+  display: flex;
+  flex-direction: column;
+  background: #b86e00;
+  align-items: center;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.doorArea {
+  width: var(--area-door-width);
+  height: var(--area-door-height);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.doorFrame {
+  display: flex;
+  flex-grow: 1;
+  border-left: 5px solid #793b02;
+  border-top: 5px solid #793b02;
+  border-right: 5px solid #793b02;
+  width: 90%;
+}
+
+.doorId {
+  font-size: 3rem;
+}
+
+.doorHandle {
+  height: 20px;
+  width: 20px;
+  align-self: flex-start;
+  border-radius: 10px;
+  background: #793b02;
+  position: absolute;
+  top: calc(0.45 * var(--area-door-height));
+}
+
+.doorGround {
+  height: 10px;
+  width: 100%;
+  background: #dddddd;
+}
+
+.doorSelect {
+  border-top: 5px solid #fffc30;
+  border-right: 5px solid #fffc30;
+  border-left: 5px solid #fffc30;
+}
+
+.doorSelect .doorId {
+  color: #fffc30;
+}
+
+.doorSelect .doorHandle {
+  background: #fffc30;
+}
