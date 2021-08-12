@@ -23,6 +23,9 @@ export default class DoorModel{
     get isOpen(){
         return this.#doorIsOpen
     }
+    get isClosed(){
+        return !this.isOpen
+    }
     toggleSelected(){
         const select = !this.selected
         return new DoorModel(this.id, this.hasGift, select, this.isOpen)

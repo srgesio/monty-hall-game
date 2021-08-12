@@ -1,0 +1,30 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.doors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: stretch;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.actions button {
+  background: #ffa600;
+  color: #190047;
+  font-size: 2rem;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
